@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* PROBLEMAS A SEREM RESOLVIDOS */ 
+
+section h1{
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+div{
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+}
+
+.p1, .p2, .p3, .p4{
+  padding: 20px;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.p2 p{
+  text-decoration: underline;
+}
+
+.faithfull{
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+span{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+/* CLIENTES*/
+header{
+  margin: 0 20px;
+}
+
+
+/* TABELAS */
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th{
+  background-color: gray;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+/* HISTÓRICO DE COMPRAS COMPLETO */
+
+.hist{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
+
+article{
+  border: 1px solid;
+  padding: 10px;
+}
+
+.boldText{
+  font-weight: bold;
+}
+
+article p{
+  padding: 2px;
+}
+
+article ul{
+  padding: 5px;
+}
+
+article li{
+  list-style-type: none;
+}
